@@ -8,8 +8,6 @@ import React, {
   View,
 } from 'react-native'
 
-import Dots from './dots'
-
 export default class Swiper extends Component {
   static propTypes = {
     children: React.PropTypes.node.isRequired,
@@ -117,12 +115,6 @@ export default class Swiper extends Component {
           { scenes }
         </Animated.View>
 
-        <Dots
-          active={ this.state.index }
-          activeColor={ this.props.activeDotColor }
-          total={ this.props.children.length }
-          style={{ position: 'absolute', bottom: 50, width: this.state.viewWidth }}
-        />
       </View>
     )
   }
