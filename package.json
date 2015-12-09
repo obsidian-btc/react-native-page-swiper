@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fixt/react-native-page-swiper.git"
+    "url": "git+https://github.com/obsidian-btc/react-native-page-swiper.git"
   },
   "author": "Christopher Garvis <cgarvis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fixt/react-native-page-swiper/issues"
+    "url": "https://github.com/obsidian-btc/react-native-page-swiper/issues"
   },
-  "homepage": "https://github.com/fixt/react-native-page-swiper#readme",
+  "homepage": "https://github.com/obsidian-btc/react-native-page-swiper#readme",
   "devDependencies": {
     "babel-core": "^6.1.21",
     "babel-eslint": "^4.1.5",
